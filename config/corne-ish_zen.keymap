@@ -27,10 +27,10 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | RALT| LWR | SPC |   | ENT | RSE  | BKSP|
                         bindings = <
-   &mt LGUI TAB &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &lt UTIL BSLH
+   &mt RALT TAB &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &lt UTIL BSLH
    &mt LCTRL ESC &kp A &kp S &kp D &kp F &kp G      &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B      &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-             &lt RALT LGUI &lt FPAD SPC &mt LCTRL RET      	&lt NUM DEL &lt NAV SPC &kp BKSP
+             &kp LGUI &lt FPAD SPC &mt LCTRL RET      	&lt NUM DEL &lt NAV SPC &kp BKSP
                         >;
                 };
                 nav_layer {
